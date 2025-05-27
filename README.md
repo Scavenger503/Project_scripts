@@ -80,7 +80,7 @@ This toolkit is owned and maintained by **scavenger503** and **World of Hackers 
 
 The software is protected under a proprietary license. Redistribution, rebranding, or resale is not permitted without written permission.
 
-See the [`LICENSE`](LICENSE) file for full terms and conditions.
+See the [`EULA.md`](EULA.md) file for full terms and conditions.
 
 ---
 
