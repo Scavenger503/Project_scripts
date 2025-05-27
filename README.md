@@ -6,7 +6,7 @@ These tools help IT admins, technicians, and advanced users quickly test SMB cli
 
 ---
 
-## 👥 Supported Platforms
+##Supported Platforms
 
 | Platform | Script                     | Format            |
 |----------|----------------------------|-------------------|
@@ -16,7 +16,7 @@ These tools help IT admins, technicians, and advanced users quickly test SMB cli
 
 ---
 
-## ✅ Features
+##Features
 
 - Detect missing SMB tools and services
 - Validate port 445 availability (TCP test)
@@ -27,7 +27,7 @@ These tools help IT admins, technicians, and advanced users quickly test SMB cli
 
 ---
 
-## 📆 Usage
+##Usage
 
 ### macOS / Linux
 
@@ -36,7 +36,7 @@ chmod +x smb_check.sh           # or smb_selftest_linux.sh
 ./smb_check.sh                  # or ./smb_selftest_linux.sh
 ```
 
-### Windows (PowerShell)
+###Windows (PowerShell)
 
 ```powershell
 .\WindowsSambaCheck.ps1
@@ -46,24 +46,24 @@ Run from an elevated PowerShell prompt if required.
 
 ---
 
-## 💻 Requirements
+##Requirements
 
-### macOS:
+###macOS:
 - `mount_smbfs` (built-in)
 - `nc` (netcat – install via `brew install netcat` if missing)
 
-### Linux:
+###Linux:
 - `smbclient`
 - `cifs-utils`
 - `nc` (netcat)
 
-### Windows:
+###Windows:
 - PowerShell 5.1+
 - SMB client enabled (default on most versions)
 
 ---
 
-## 📋 Output
+##Output
 
 Each script provides:
 
@@ -74,7 +74,7 @@ Each script provides:
 
 ---
 
-## 🔐 Licensing
+##Licensing
 
 This toolkit is owned and maintained by **scavenger503** and **World of Hackers LLC**.
 
@@ -84,8 +84,8 @@ See the [`LICENSE`](LICENSE) file for full terms and conditions.
 
 ---
 
-## 💬 Support
+##Support
 
-Need enterprise-grade logging, GUI packaging, or remote deployment support?
+Need support on running the scripts?
 
-📩 Contact: [support@worldofhackers.io](mailto:support@worldofhackers.io)
+Contact: [support@worldofhackers.io](mailto:support@worldofhackers.io)
