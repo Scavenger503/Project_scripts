@@ -86,6 +86,8 @@ See the [`LICENSE`](LICENSE) file for full terms and conditions.
 
 ##Support
 
-Need support on running the scripts?
+Need help resolving SMB issues, analyzing logs, or configuring NAS/Windows/macOS/Linux?
 
-Contact: [support@worldofhackers.io](mailto:support@worldofhackers.io)
+**SMB Troubleshooting & Remote Support** is available.
+
+Contact us at [support@worldofhackers.io](mailto:support@worldofhackers.io) to get started.
