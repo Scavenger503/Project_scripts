@@ -77,3 +77,17 @@ See [CHANGELOG.md](./CHANGELOG.md) for full version history.
 ---
 
 If you encounter any problems, contact: **support@worldofhackers.io**
+
+========================= SCREENSHOTS =============================
+Linux:
+![Linux_Universal_Tool_Results_patched_Final](https://github.com/user-attachments/assets/d75d697d-3a8b-496f-9865-b2f7a30e8cc1)
+
+MacOS:
+![macOS_Universal_SMB_Tool_Patch_Results](https://github.com/user-attachments/assets/6571ae31-05d6-46cb-818f-04bdf4c8b415)
+
+Windows:
+![Win_Universal_SMB_Tool_Patched_Final_part1](https://github.com/user-attachments/assets/e738cce2-f86f-48d3-a13f-e366c22b3a21)
+
+![Win_Universal_SMB_Tool_Patched_Final_part2](https://github.com/user-attachments/assets/2b528226-fab4-4ab5-bcfc-673a2804a6c6)
+
+
