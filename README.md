@@ -1,93 +1,39 @@
-# SMB Diagnostic Toolkit (Cross-Platform)
+# Universal SMB Diagnostic Tool
 
-A lightweight and powerful set of diagnostic scripts for verifying SMB (Server Message Block) client functionality across **Linux**, **macOS**, and **Windows**.
+A cross-platform SMB self-check and mapping utility designed for Windows, macOS, and Linux environments.
 
-These tools help IT admins, technicians, and advanced users quickly test SMB client readiness, service availability, port connectivity, and share access on their local machines.
+## 🔧 Features
+- Detects SMB support and status on all major OS platforms
+- Supports share mounting via:
+  - Windows: `net use`
+  - macOS: `mount_smbfs`
+  - Linux: `mount -t cifs`
+- Encrypted credential handling (uses Python `cryptography` lib)
+- Network port and share availability checks
+- Interactive terminal prompts with error feedback
 
----
+## 🚀 Platforms Supported
+- ✅ Windows 10/11
+- ✅ macOS (10.15+)
+- ✅ Linux (Debian, Ubuntu, Fedora, Arch, etc.)
 
-##Supported Platforms
+## 📦 Requirements
+- Python 3.6+
+- `cryptography` module (`pip install cryptography`)
 
-| Platform | Script                     | Format            |
-|----------|----------------------------|-------------------|
-| macOS    | `smb_check.sh`             | Bash Shell Script |
-| Linux    | `smb_selftest_linux.sh`    | Bash Shell Script |
-| Windows  | `WindowsSambaCheck.ps1`    | PowerShell Script |
-
----
-
-##Features
-
-- Detect missing SMB tools and services
-- Validate port 445 availability (TCP test)
-- Prompt for credentials or use guest access
-- Attempt to mount or list shares
-- Provide detailed logging and helpful error messages
-- Supports manual or automated testing in enterprise environments
-
----
-
-##Usage
-
-### macOS / Linux
-
+## 📁 Usage
 ```bash
-chmod +x smb_check.sh           # or smb_selftest_linux.sh
-./smb_check.sh                  # or ./smb_selftest_linux.sh
+python3 Universal_SMB_Tool.py
 ```
 
-###Windows (PowerShell)
+Follow the on-screen instructions to test and mount SMB shares.
 
-```powershell
-.\WindowsSambaCheck.ps1
-```
+## 📄 License
+MIT License - see `LICENSE` file.
 
-Run from an elevated PowerShell prompt if required.
-
----
-
-##Requirements
-
-###macOS:
-- `mount_smbfs` (built-in)
-- `nc` (netcat – install via `brew install netcat` if missing)
-
-###Linux:
-- `smbclient`
-- `cifs-utils`
-- `nc` (netcat)
-
-###Windows:
-- PowerShell 5.1+
-- SMB client enabled (default on most versions)
+## 📜 Changelog
+See [CHANGELOG.md](./CHANGELOG.md) for full version history.
 
 ---
 
-##Output
-
-Each script provides:
-
-- Color-coded `[OK]`, `[INFO]`, `[WARNING]`, and `[ERROR]` messages
-- Remote server connectivity checks
-- Share accessibility (guest or authenticated)
-- Optional read/write validation (on macOS/Linux)
-
----
-
-##Licensing
-
-This toolkit is owned and maintained by **scavenger503** and **World of Hackers LLC**.
-
-The software is protected under a proprietary license. Redistribution, rebranding, or resale is not permitted without written permission.
-
-See the [`EULA.md`](EULA.md) file for full terms and conditions.
-
----
-
-##Support
-
-Need help resolving SMB issues, analyzing logs, or configuring NAS/Windows/macOS/Linux?
-
-**SMB Troubleshooting & Remote Support** is available.
-
-Contact us at [support@worldofhackers.io](mailto:support@worldofhackers.io) to get started.
+Maintained by **World of Hackers LLC** • Built by **Scavenger**
