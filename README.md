@@ -17,18 +17,6 @@ A cross-platform SMB self-check and mapping utility designed for Windows, macOS,
 - ✅ macOS (10.15+)
 - ✅ Linux (Debian, Ubuntu, Fedora, Arch, etc.)
 
-## 🖼️ Screenshots
-
-### 🪟 Windows 11
-![Windows Diagnostics](images/Win_Universal_SMB_Tool_Patched_Final_part1.png)
-![Windows Mapping](images/Win_Universal_SMB_Tool_Patched_Final_part2.png)
-
-### 🐧 Linux (Ubuntu 25.04)
-![Linux Output](images/Linux_Universal_Tool_Results_patched_Final.png)
-
-### 🍏 macOS (Darwin 24.5)
-![macOS Output](images/macOS_Universal_SMB_Tool_Patch_Results.png)
-
 ## 📦 Requirements
 - Python 3.6+
 - `cryptography` module
@@ -37,6 +25,8 @@ A cross-platform SMB self-check and mapping utility designed for Windows, macOS,
 ```bash
 python3 Universal_SMB_Tool.py
 ```
+
+Follow the on-screen instructions to test and mount SMB shares.
 
 ---
 
