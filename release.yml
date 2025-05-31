@@ -1,0 +1,19 @@
+name: Release SMB Tool
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v1
+        with:
+          name: Universal SMB Tool ${{ github.ref_name }}
+          body_path: CHANGELOG.md
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
