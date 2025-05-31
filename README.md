@@ -17,22 +17,26 @@ A cross-platform SMB self-check and mapping utility designed for Windows, macOS,
 - ✅ macOS (10.15+)
 - ✅ Linux (Debian, Ubuntu, Fedora, Arch, etc.)
 
+## 🖼️ Screenshots
+
+### 🪟 Windows 11
+![Windows Diagnostics](images/Win_Universal_SMB_Tool_Patched_Final_part1.png)
+![Windows Mapping](images/Win_Universal_SMB_Tool_Patched_Final_part2.png)
+
+### 🐧 Linux (Ubuntu 25.04)
+![Linux Output](images/Linux_Universal_Tool_Results_patched_Final.png)
+
+### 🍏 macOS (Darwin 24.5)
+![macOS Output](images/macOS_Universal_SMB_Tool_Patch_Results.png)
+
 ## 📦 Requirements
 - Python 3.6+
-- `cryptography` module (`pip install cryptography`)
+- `cryptography` module
 
 ## 📁 Usage
 ```bash
 python3 Universal_SMB_Tool.py
 ```
-
-Follow the on-screen instructions to test and mount SMB shares.
-
-## 📄 License
-MIT License - see `LICENSE` file.
-
-## 📜 Changelog
-See [CHANGELOG.md](./CHANGELOG.md) for full version history.
 
 ---
 
@@ -49,7 +53,7 @@ See [CHANGELOG.md](./CHANGELOG.md) for full version history.
    - Press `Windows + R`, type `cmd`, and press Enter
    - In the command prompt, type:
      ```bash
-     pip install cryptography
+     pip install cryptography   # Use this on Windows
      ```
 
 ---
@@ -69,8 +73,16 @@ See [CHANGELOG.md](./CHANGELOG.md) for full version history.
 
 3. **Install the Cryptography Module:**
    ```bash
-   pip3 install cryptography
+   pip3 install cryptography   # Use this on macOS
    ```
+
+---
+
+## 📄 License
+MIT License - see `LICENSE` file.
+
+## 📜 Changelog
+See [CHANGELOG.md](./CHANGELOG.md) for full version history.
 
 ---
 
